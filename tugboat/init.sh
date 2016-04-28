@@ -52,3 +52,10 @@ cat << 'EOF'
                 -///     :///////.  ://////:` -////////:  ://////:` ///-  ///-   .///`
                            ````       ````                  ````
 EOF
+
+# Make sure previews work when tugboat_url is set to subpath
+if [ "$TUGBOAT_URL" == "http://$TUGBOAT_DOMAIN/$TUGBOAT_TAG-$TUGBOAT_TOKEN" ] || [ "$TUGBOAT_URL" == "https://$TUGBOAT_DOMAIN/$TUGBOAT_TAG-$TUGBOAT_TOKEN" ]; then
+    rm /var/www/html
+    mkdir /var/www/html
+    ln -s /var/lib/tugboat/docroot /var/www/html/$TUGBOAT_TAG-$TUGBOAT_TOKEN
+fi

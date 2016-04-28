@@ -1,8 +1,8 @@
 tugboat-init:
-	tugboat/script.sh
+	tugboat/init.sh
 
 tugboat-update:
-	tugboat/script.sh
+	tugboat/update.sh
 
 tugboat-build:
-	tugboat/script.sh
+	tugboat/build.sh
