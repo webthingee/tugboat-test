@@ -6,3 +6,6 @@ tugboat-update:
 
 tugboat-build:
 	tugboat/build.sh
+
+tugboat-test:
+	tugboat/test.sh
