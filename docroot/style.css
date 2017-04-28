@@ -3,10 +3,6 @@ body {
     text-align: center;
 }
 
-body.error {
-    background-color: red;
-}
-
 img {
     width: 75%;
     position: relative;
