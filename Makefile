@@ -1,11 +1,11 @@
 tugboat-init:
-	tugboat/init.sh
+	/bin/false
 
 tugboat-update:
-	tugboat/update.sh
+	/bin/false
 
 tugboat-build:
-	tugboat/build.sh
+	/bin/false
 
 tugboat-test:
-	tugboat/test.sh
+	/bin/false
