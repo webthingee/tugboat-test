@@ -6,5 +6,6 @@
     </head>
     <body class="<?php echo $class ?>">
         <img src="logo.svg" alt="Tugboat Logo">
+        <h1>TEST TEST TEST</h1>
     </body>
 </html>
